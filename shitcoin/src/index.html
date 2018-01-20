@@ -4,11 +4,16 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>shitcoin</title>
+    <title>ShitCoin Selector</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="node_modules/tablesorter/dist/js/jquery.tablesorter.js"></script>
     <link rel="stylesheet" href="css/styles.css" type="text/css" media="all">
   </head>
   <body class="shitcoin">
-    {{name}} - {{version}}
+    <div class="app-name">
+      {{name}} - {{version}}
+    </div>
+    <div class="coins" data-include="'/views/coins.html'"></div>
     <script src="node_modules/silica/dist/silica.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/app.js" type="text/javascript" charset="utf-8"></script>
   </body>

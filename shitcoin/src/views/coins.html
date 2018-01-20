@@ -1,0 +1,12 @@
+<div id="myTable" class="tablesorter">
+  <div class="header-container" data-repeat="header in headers">
+    <button data-click="sorter" data-parameter="name">{{header.name}}</button>
+    <button data-click="sorter" data-parameter="market_cap_usd">{{header.cap}}</button>
+    <button data-click="sorter" data-parameter="price_usd">{{header.price}}</button>
+  </div>
+  <div class="coins-container" data-repeat="coin in coinsList">
+    <div>{{coin.name}}</div>
+    <div>{{coin.market_cap_usd}}</div>
+    <div>{{coin.price_usd}}</div>
+  </div>
+</div>
