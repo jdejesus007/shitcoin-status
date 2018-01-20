@@ -1,0 +1,13 @@
+{
+  "name": "shitcoin",
+  "version": "1.0.0",
+  "description": "Simple CoinMarketCap Sorter",
+  "main": "index.js",
+  "repository": "https://github.com/jdejesus007/shitcoin-status",
+  "author": "Jon De Jesus",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "silica": "^0.27.5"
+  }
+}
