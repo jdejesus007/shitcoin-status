@@ -1,0 +1,12 @@
+<table style="width: 100%">
+  <tr class="coins-container">
+    <th>Name: </th>
+    <th>Market Cap: </th>
+    <th>Price (USD): </th>
+  </tr>
+  <tr class="coins-container" data-repeat="coin in coinsList">
+    <td>{{coin.name}}</td>
+    <td>{{coin.market_cap_usd}}</td>
+    <td>{{coin.price_usd}}</td>
+  </tr>
+</table>
